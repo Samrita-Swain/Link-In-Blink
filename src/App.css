@@ -34,7 +34,7 @@ li {
   cursor: pointer;
   position: relative;
 }
-li::before {
+/* li::before {
   position: absolute;
   content: '';
   height: 3px;
@@ -46,13 +46,21 @@ li::before {
 }
 li:hover::before{
   width: 33px;
-}
-/* .nav-item .active{
-  border-bottom: 4px solid #81259f;
-  padding-top: 12px;
 } */
-a {
-  color:inherit;
+.nav-item :hover{
+  border-bottom: 3px solid #81259f;
+}
+.nav-item{
+  transition: 0.5s;
+}
+.nav-item .active{
+  border-bottom: 3px solid #81259f;
+}
+button a{
+  color: #fff;
+}
+a  {
+  color:#000;
   text-decoration: none;
 }
 .navbar button{
@@ -178,7 +186,7 @@ input {
   box-sizing: border-box;
   border: 1px solid #4e194d;
   border-radius: 30px;
-  font-size: 12px;
+  font-size: 13px;
   background-color: #00000078;
   color: #fff;
 }
@@ -191,6 +199,7 @@ textarea {
  padding: 10px;
   border-radius: 30px;
   color: #fff;
+  font-size: 13px;
 }
 button {
   all: unset;

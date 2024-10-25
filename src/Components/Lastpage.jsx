@@ -51,7 +51,7 @@ const Lastpage = () => {
   };
 
   return (
-    <div id="contact" className="lastpage">
+    <div id="contact-us" className="lastpage">
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
