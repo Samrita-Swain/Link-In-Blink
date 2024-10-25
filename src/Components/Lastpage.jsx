@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Swal from 'sweetalert2';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Lastpage = () => {
   const [loading, setLoading] = useState(false);
@@ -54,7 +55,7 @@ const Lastpage = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <img src="public/images/get-in-touch.png" alt="Get in Touch" />
+            <img src="\images\get-in-touch.png" alt="Get in Touch" />
           </div>
           <div className="col-lg-6">
             <h1>Get In Touch</h1>
@@ -72,6 +73,9 @@ const Lastpage = () => {
                 {loading ? "Sending..." : "Send Message"}
               </button>
             </form>
+            <div className="last-part">
+              <a href=""><FontAwesomeIcon icon="fa-brands fa-facebook" /></a>
+            </div>
           </div>
         </div>
       </div>
