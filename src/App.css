@@ -211,6 +211,6 @@ input:-internal-autofill-selected {
   background-color: none !important;
   color: #fff !important;
 }
-.footer .row{
-  align-items: center;
+.lastpage .row{
+  align-items: center !important;
 }
