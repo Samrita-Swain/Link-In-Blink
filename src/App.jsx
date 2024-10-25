@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigations from './Components/navigations'
+import Navigations from './Components/Navigations';
 import Mainpage from './Components/Mainpage'
 import Secondpage from './Components/Secondpage'
 import Thirdpage from './Components/Thirdpage';

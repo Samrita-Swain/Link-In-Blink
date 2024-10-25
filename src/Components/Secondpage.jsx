@@ -2,7 +2,7 @@ import React from 'react'
 
 const Secondpage = () => {
   return (
-    <div className='secondpage'>
+    <div id='hotel' className='secondpage'>
       <div className="container">
       <div className="row">
         <div className="col-lg-6"></div>

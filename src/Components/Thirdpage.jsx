@@ -2,7 +2,7 @@ import React from 'react'
 
 const Thirdpage = () => {
   return (
-    <div className='thirdpage'>
+    <div id='event' className='thirdpage'>
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
