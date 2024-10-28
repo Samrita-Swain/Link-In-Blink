@@ -24,7 +24,7 @@ const Navigations = () => {
         </Link>
       </li>
       <li className='nav-item'>
-        <Link activeClass="active" to="contact-us" spy={true} smooth={true} offset={-150} duration={500}>
+        <Link activeClass="active" to="contact-us" spy={true} smooth={true} offset={-100} duration={500}>
           Contact Us
         </Link>
       </li>
